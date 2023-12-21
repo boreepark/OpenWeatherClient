@@ -7,7 +7,7 @@ public class Client : IClient
 {
     private readonly string _apiKey;
     private readonly HttpClient _httpClient;
-    private const string BASE_URL = "https://api.openweathermap.org/data/2.5";
+    private const string BASE_URL = "https://api.openweathermap.org/data/3.0";
 
     public Client(string apiKey, HttpClient httpClient)
     {
